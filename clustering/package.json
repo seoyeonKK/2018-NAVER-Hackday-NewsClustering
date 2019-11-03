@@ -1,0 +1,43 @@
+{
+  "name": "Clustering",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "node src/controllers/testCtrl.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "csvtojson": "^2.0.8",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.16.4",
+    "express-async-wrap": "^1.0.0",
+    "express-validation": "^1.0.2",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.2",
+    "jaro-winkler": "^0.2.8",
+    "joi": "^13.1.2",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "lodash.countby": "^4.6.0",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "mysql": "^2.15.0",
+    "node-twitter-korean-text": "^1.0.5",
+    "path": "^0.12.7",
+    "promise-mysql": "^3.3.1",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.7"
+  }
+}
