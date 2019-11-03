@@ -20,7 +20,7 @@
     "jaro-winkler": "^0.2.8",
     "joi": "^13.1.2",
     "jsonwebtoken": "^8.3.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "lodash.countby": "^4.6.0",
     "moment": "^2.22.2",
     "morgan": "^1.9.1",
